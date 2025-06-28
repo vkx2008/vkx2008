@@ -1,0 +1,17 @@
+[project]
+name = "vkx2008"
+version = "0.1.0"
+description = "CLI project scaffold"
+authors = [
+    { name="vkx2008", email="example@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+vkx2008 = "vkx2008.cli:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
